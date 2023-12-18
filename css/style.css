@@ -12,21 +12,21 @@
     margin: 0 auto;
     width: 75%;
     text-align: center;
-    
+
 }
 
 .header h1 {
     text-transform: uppercase;
 }
 
-.image-container {   
+.image-container {
     clip-path: circle(50% at 50% 50%);
     background-image: url('../img/profile1.jpg');
     background-size: cover;
     background-position: center;
     height: 450px;
     width: 450px;
-    margin: 2rem auto;  
+    margin: 2rem auto;
 }
 
 .navigation ul li {
@@ -77,7 +77,7 @@
 }
 
 .footer ul a {
-    color: #777;
+    color:black;
     text-decoration: none;
 }
 
@@ -88,10 +88,29 @@
     /*muuda dokumendi tekstivärvi*/
     /*ära unusta ka raamjoonesid*/
 
+    .image-container {
+        clip-path: circle(50% at 50% 50%);
+        background-image: url('../img/profile2.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 450px;
+        width: 450px;
+        margin: 2rem auto;
+    }
+
+    .main-container h1 {
+        margin-bottom: 5rem;
+    }
+
+    .main-container p {
+        text-align: justify;
+    }
+
     .container {
         width: 100%;
+        background-color: antiquewhite;
     }
-    
+
 
     .navigation ul li {
         display: block;
@@ -99,10 +118,11 @@
         margin: 0;
         width: 100%;
     }
+
     .navigation ul li:not(:last-child) {
         border-bottom: none;
     }
-    
+
 
     .main-container {
         padding: 0.75rem;
@@ -112,7 +132,15 @@
     .main-container h1 {
         margin: 1rem auto;
     }
-    
+    .footer ul a {
+        color: #3d3d3d;
+        text-decoration: none;
+    }
+    .footer ul a {
+        color: #3d3d3d;
+        text-decoration: none;
+    }
+
 }
 
 
@@ -122,41 +150,156 @@
     /*muuda dokumendi taustavärvi*/
     /*muuda dokumendi tekstivärvi*/
     /*ära unusta ka raamjoonesid*/
-}
 
-
-@media (min-width: 1024px){
-        
-    /*muuda image-container taustapilti*/
-    /*muuda dokumendi taustavärvi*/
-    /*muuda dokumendi tekstivärvi*/
-    /*ära unusta ka raamjoonesid*/
-}
-
-
-@media (min-width: 1200px){
-
-    /*muuda image-container taustapilti*/
-    /*muuda dokumendi taustavärvi*/
-    /*muuda dokumendi tekstivärvi*/
-    /*ära unusta ka raamjoonesid*/
-    .header h1 {
-        margin: 3rem auto;
+    .image-container {
+        clip-path: circle(50% at 50% 50%);
+        background-image: url('../img/profile3.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 450px;
+        width: 450px;
+        margin: 2rem auto;
     }
+
+    .main-container h1 {
+        margin-bottom: 5rem;
+        color: beige;
+    }
+
+    .main-container p {
+        text-align: justify;
+        color: beige;
+    }
+
+    .container {
+        width: 100%;
+        background-color: rgb(131, 121, 109);
+    }
+
     .navigation ul li {
-        display: inline-block;
-        width: 16rem;
-    }
-    
-    .navigation ul li:not(:last-child) {
-        border-bottom: 1px solid black;
-        margin-right: 4rem;
+        display: block;
+        font-size: 1rem;
+        margin: 0;
+        width: 100%;
+        color: beige;
+        border: 1px solid beige;
     }
 
-    .main-container {
-        width: 75%;
+    .header h1 {
+        text-transform: uppercase;
+        color: beige;
     }
+    .footer ul a {
+        color: beige;
+        text-decoration: none;
+    }
+
 
 }
 
 
+@media (min-width: 1024px) {
+
+    /*muuda image-container taustapilti*/
+    /*muuda dokumendi taustavärvi*/
+    /*muuda dokumendi tekstivärvi*/
+    /*ära unusta ka raamjoonesid*/
+
+    .image-container {
+        clip-path: circle(50% at 50% 50%);
+        background-image: url('../img/profile4.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 450px;
+        width: 450px;
+        margin: 2rem auto;
+    }
+
+    .main-container h1 {
+        margin-bottom: 5rem;
+        color: beige;
+    }
+
+    .main-container p {
+        text-align: justify;
+        color: rgb(240, 240, 232);
+    }
+
+    .container {
+        width: 100%;
+        background-color: rgb(107, 95, 79);
+    }
+
+    .navigation ul li {
+        display: block;
+        font-size: 1rem;
+        margin: 0;
+        width: 100%;
+        color: rgb(240, 240, 232);
+        border: 1px solid beige;
+    }
+
+    .header h1 {
+        text-transform: uppercase;
+        color: rgb(240, 240, 232);
+    }
+    .footer ul a {
+        color: rgb(240, 240, 232);
+        text-decoration: none;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    /*muuda image-container taustapilti*/
+    /*muuda dokumendi taustavärvi*/
+    /*muuda dokumendi tekstivärvi*/
+    /*ära unusta ka raamjoonesid*/
+
+    .image-container {
+        clip-path: circle(50% at 50% 50%);
+        background-image: url('../img/profile1.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 450px;
+        width: 450px;
+        margin: 2rem auto;
+    }
+
+    
+    .main-container h1 {
+        margin-bottom: 5rem;
+        color: rgb(255, 255, 255);
+    }
+
+    .main-container p {
+        text-align: justify;
+        color: rgb(253, 253, 253);
+    }
+
+    .container {
+        width: 100%;
+        background-color: rgb(68, 55, 37);
+    }
+
+    .navigation ul li {
+        display: block;
+        font-size: 1rem;
+        margin: 0;
+        width: 100%;
+        color: rgb(255, 255, 255);
+        border: 1px solid rgb(255, 255, 255);
+    }
+
+    .header h1 {
+        text-transform: uppercase;
+        color: rgb(255, 255, 255);
+    }
+    .footer ul a {
+        color: (255, 255, 255);
+        text-decoration: none;
+    }
+
+   
+
+}
